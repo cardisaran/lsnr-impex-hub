@@ -93,10 +93,15 @@ const AboutSection = () => {
         {/* Company Info */}
         <Card className="bg-primary/5 border-primary/20">
           <CardContent className="p-8">
-            <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="grid md:grid-cols-4 gap-8 text-center">
               <div>
                 <h4 className="font-semibold text-foreground mb-2">Founded By</h4>
                 <p className="text-muted-foreground">Suman Ramachandran</p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-foreground mb-2">Directors</h4>
+                <p className="text-muted-foreground text-sm">Suman Ramachandran</p>
+                <p className="text-muted-foreground text-sm">Ramachandran Perumal</p>
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-2">Location</h4>
