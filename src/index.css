@@ -2,41 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* LSNR IMPEX Design System - Professional Export Business Theme */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 0 0% 98%;
+    --foreground: 232 23% 18%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 232 23% 18%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 232 23% 18%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Purple brand colors from logo */
+    --primary: 291 47% 51%;
+    --primary-foreground: 0 0% 98%;
+    --primary-light: 291 47% 65%;
+    --primary-dark: 291 47% 35%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Gold accent from logo */
+    --accent: 43 96% 56%;
+    --accent-foreground: 232 23% 18%;
+    --accent-light: 43 96% 70%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --secondary: 232 12% 95%;
+    --secondary-foreground: 232 23% 18%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --muted: 232 12% 95%;
+    --muted-foreground: 232 12% 45%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 232 12% 90%;
+    --input: 232 12% 90%;
+    --ring: 291 47% 51%;
 
-    --radius: 0.5rem;
+    /* Professional gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(291 47% 51%), hsl(291 47% 35%));
+    --gradient-hero: linear-gradient(135deg, hsl(291 47% 51%), hsl(315 47% 51%));
+    --gradient-accent: linear-gradient(90deg, hsl(43 96% 56%), hsl(43 96% 70%));
+    
+    /* Subtle background gradient */
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 98%), hsl(232 12% 97%));
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
