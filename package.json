@@ -1,8 +1,9 @@
 {
-  "name": "vite_react_shadcn_ts",
-  "private": true,
+  "name": "lsnr-impex-hub",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://www.lsnrimpex.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
