@@ -4,7 +4,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const handleWhatsAppContact = () => {
-    const phoneNumber = "918508783857";
+    const phoneNumber = "919385989939";
     const message = "Hi! I'm interested in your export services.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
